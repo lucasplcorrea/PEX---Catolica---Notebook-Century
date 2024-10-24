@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notebook Century - Home</title>
+    <link rel="icon" type="image/x-icon" href="/notebookcentury/assets/imgs/logos/favicon.png">
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Personalizado -->
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class="light-theme">
+
+    <!-- Sticky Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Notebook Century</a>
-            <div class="collapse navbar-collapse">
+            <a class="navbar-brand" href="#">
+                <img src="/notebookcentury/assets/imgs/logos/notebookcenturylogo.png" alt="Notebook Century" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
                     <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
                     <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
@@ -22,18 +34,105 @@
         </div>
     </nav>
 
-    <header class="bg-primary text-white text-center py-5">
-        <h1>Bem-vindo à Notebook Century</h1>
-        <p>Seu parceiro ideal para notebooks e soluções de tecnologia.</p>
+    <!-- Header Section -->
+    <header class="text-center py-5 bg-primary text-white">
+        <img src="assets/img/logo.png" alt="Notebook Century" width="300" class="mb-4">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <a href="servicos.html" class="btn btn-lg btn-primary">Ver Serviços</a>
+            <a href="contato.html" class="btn btn-lg btn-secondary">Entre em Contato</a>
+        </div>
     </header>
 
-    <div class="container my-5">
-        <h2>Nossos Destaques</h2>
-        <p>Confira as últimas novidades e ofertas especiais!</p>
-    </div>
+    <!-- Services Section -->
+    <section class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <i class="bi bi-tools icon"></i>
+                <h3>Reparos</h3>
+                <p>Com tecnologia de ponta e laboratório especializado em ressolda BGA e substituição de chipset. Conserto de fontes de todas as voltagens e marcas.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="bi bi-gear icon"></i>
+                <h3>Instalações</h3>
+                <p>Instalação de sistemas operacionais originais e drivers para notebooks. Remoção de vírus e backup dos seus arquivos.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="bi bi-shield-check icon"></i>
+                <h3>Preventivas</h3>
+                <p>Manutenções preventivas para melhorar desempenho e prolongar a vida útil, com troca de memórias e HD.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="bg-light py-5" style="background-image: url('assets/img/laptop.jpg'); background-size: cover; background-position: center;">
+        <div class="container text-end text-white" style="background-color: rgba(0, 0, 0, 0.5); padding: 30px;">
+            <h2>SOBRE NÓS</h2>
+            <p>A Notebook Century é uma assistência técnica especializada em manutenção de notebooks. Atuamos há mais de 20 anos com princípios de transparência e responsabilidade.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">O que nossos clientes dizem</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <blockquote class="blockquote">
+                    <p>"Assistência técnica de notebooks mais confiável e segura de Joinville."</p>
+                    <footer class="blockquote-footer">Andre Campos <cite>Review no Google</cite></footer>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote class="blockquote">
+                    <p>"Especialistas em notebook. Nesta empresa eu confio!"</p>
+                    <footer class="blockquote-footer">Guilherme Gasparin <cite>Review no Google</cite></footer>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote class="blockquote">
+                    <p>"Ótimo atendimento, serviço impecável e de um profissionalismo inigualável!"</p>
+                    <footer class="blockquote-footer">Jackson Kalfels <cite>Review no Google</cite></footer>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote class="blockquote">
+                    <p>"A melhor assistência técnica da cidade! Atendimento de primeira."</p>
+                    <footer class="blockquote-footer">Rodrigo Fernandes Dias <cite>Review no Google</cite></footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed" width="100%" height="300" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </section>
 
     <footer class="bg-light text-center py-3">
         <p>&copy; 2024 Notebook Century. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

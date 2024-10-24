@@ -1,7 +1,44 @@
+/* Importação das Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Estilos Gerais */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-h1, h2 {
-    color: #333;
+/* Tema Claro e Escuro */
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+.nav-link.active {
+    color: #548d94 !important;
+}
+
+.nav-link:hover {
+    color: #77b1b6 !important;
+}
+
+/* Estilização dos Ícones */
+.icon {
+    font-size: 48px;
+    color: #01454f;
+}
+
+/* Botões Personalizados */
+.btn-primary {
+    background-color: #46ae48;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #548d94;
+    color: white;
 }
