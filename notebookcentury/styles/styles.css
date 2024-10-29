@@ -42,3 +42,21 @@ body {
     background-color: #548d94;
     color: white;
 }
+
+.hr-home {
+    border: 1px solid #f0f0f0;
+    margin: 1rem 3rem;
+
+}
+
+.bg-green {
+    background-color: #264e27;
+}
+
+.texto-logo-home {
+    width: 500px;
+}
+
+.logo-navmenu {
+    width: 200px;
+}
