@@ -50,7 +50,7 @@ body {
 }
 
 .bg-green {
-    background-color: #264e27;
+    background-color: #01454F;
 }
 
 .texto-logo-home {
@@ -98,4 +98,20 @@ body {
     .featurette {
         flex-direction: column; /* Empilha conteúdo em telas menores */
     }
+}
+
+.hero {
+    background-image: url('/notebookcentury/assets/imgs/royaltyfreeimgs/contato.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.contact-icon {
+    font-size: 3rem;
+    color: #007bff; /* Cor do ícone */
 }
