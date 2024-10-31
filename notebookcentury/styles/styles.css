@@ -60,3 +60,42 @@ body {
 .logo-navmenu {
     width: 200px;
 }
+
+.imagens-sobre {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.featurette-container {
+    margin-bottom: 2rem;
+}
+
+.featurette {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem; /* Espaço entre os blocos */
+}
+
+.featurette-text {
+    padding: 1rem;
+}
+
+.featurette-image {
+    text-align: center;
+}
+
+.featurette-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto; /* Mantém a proporção */
+    object-fit: cover; /* Corta a imagem se necessário */
+}
+
+@media (max-width: 768px) {
+    .featurette {
+        flex-direction: column; /* Empilha conteúdo em telas menores */
+    }
+}
