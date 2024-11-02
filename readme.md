@@ -16,10 +16,11 @@ O site contará com as seguintes páginas e funcionalidades:
 - **Home**: Página inicial com apresentação da empresa, slogan e links para outras seções.
 - **Sobre**: Detalhes sobre a história, missão, visão e valores da Notebook Century.
 - **Serviços**: Descrição dos serviços oferecidos pela empresa.
-- **Produtos**: Lista dos notebooks e acessórios disponíveis, com descrições e imagens.
 - **Contato**: Formulário de contato simples e links para redes sociais.
-- **Blog/Notícias**: Seção com atualizações e dicas relacionadas a tecnologia.
-- **Área de Suporte Técnico**: Permite aos usuários solicitar suporte técnico ou abrir chamados.
+
+## Features Adicionadas
+- Tema claro e escuro consultado tema do usuário e armazenando em localStorage
+- Responsividade
 
 ## Tecnologias Utilizadas
 
@@ -29,21 +30,3 @@ O site contará com as seguintes páginas e funcionalidades:
 - **Bootstrap**: Framework CSS utilizado para acelerar o desenvolvimento do layout e garantir a responsividade.
 - **Git/GitHub**: Controle de versão e colaboração em equipe.
 
-
-## Estrutura do Inicial Projeto
-
-```bash
-notebook-century/
-├── index.html            # Página inicial
-├── css/
-│   └── styles.css        # Arquivo de estilos personalizados
-├── js/
-│   └── scripts.js        # Scripts em JavaScript
-├── img/
-│   └── ...               # Imagens do site
-├── pages/
-│   ├── about.html        # Página "Sobre"
-│   ├── services.html     # Página "Serviços"
-│   ├── products.html     # Página "Produtos"
-│   └── contact.html      # Página "Contato"
-└── README.md             # Documentação do projeto
