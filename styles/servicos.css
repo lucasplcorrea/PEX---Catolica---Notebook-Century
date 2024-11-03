@@ -1,0 +1,35 @@
+.img-servicos {
+  position: relative;
+  height: 32em;
+}
+
+.img-servicos img {
+  height: 32em;
+  object-fit: cover;
+}
+
+.buttons-servicos {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.container-servicos .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.container-servicos .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.container .list-group-item .title-list-reparo {
+  font-weight: bold;
+}
