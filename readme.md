@@ -30,3 +30,6 @@ O site contará com as seguintes páginas e funcionalidades:
 - **Bootstrap**: Framework CSS utilizado para acelerar o desenvolvimento do layout e garantir a responsividade.
 - **Git/GitHub**: Controle de versão e colaboração em equipe.
 
+### Colaboradores
+- **Lucas Pedro Lopes Corrêa**: https://github.com/lucasplcorrea
+- **Luiz Gustavo Eburneo**: https://github.com/Botuca
