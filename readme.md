@@ -33,3 +33,4 @@ O site contará com as seguintes páginas e funcionalidades:
 ### Colaboradores
 - **Lucas Pedro Lopes Corrêa**: https://github.com/lucasplcorrea
 - **Luiz Gustavo Eburneo**: https://github.com/Botuca
+- **Luis Eduardo Lemke**: https://github.com/LuisBusyB
